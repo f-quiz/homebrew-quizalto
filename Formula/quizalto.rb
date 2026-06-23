@@ -7,11 +7,11 @@ class Quizalto < Formula
   on_macos do
     on_arm do
       url "https://www.dev.quizalto.com/assets/v411755f/quizalto-darwin-arm64"
-      sha256 "e7256ada2feaea51e9054f61b8effb925837f1285b755132a54574ad00e4e896"
+      sha256 "50603c967c747713b970fb439b21f73e497aab6888915d1f3024b2a2b2b19f93"
     end
     on_intel do
       url "https://www.dev.quizalto.com/assets/v411755f/quizalto-darwin-amd64"
-      sha256 "99291a2870e6fd1def0f9ce938433c59ac47ceffd61bf466e075189bff3119f8"
+      sha256 "5f43847ccff7cc18b7e5a4030dd1637f89d0ac497d5bca1bb6c758864152d735"
     end
   end
 
