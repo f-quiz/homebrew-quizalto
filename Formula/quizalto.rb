@@ -1,17 +1,17 @@
 class Quizalto < Formula
   desc "Quizalto CLI - Interact with the Quizalto API from your terminal"
   homepage "https://www.quizalto.com"
-  version "3b68867"
+  version "ca107b8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://www.dev.quizalto.com/assets/v3b68867/quizalto-darwin-arm64"
-      sha256 "33470333d8c8a0a8b0a0aa094bb1aa57270e30c1a723b5a118b71d8f2aa892ff"
+      url "https://www.dev.quizalto.com/assets/vca107b8/quizalto-darwin-arm64"
+      sha256 "1f9c37173332fee9dfbf75ce6d1b48658e5917a8d9719472e93b526ffef0b0f5"
     end
     on_intel do
-      url "https://www.dev.quizalto.com/assets/v3b68867/quizalto-darwin-amd64"
-      sha256 "051eedc2dbf04683d3824468ecfb1d50883d6d761ac37d0c46109efde635bcef"
+      url "https://www.dev.quizalto.com/assets/vca107b8/quizalto-darwin-amd64"
+      sha256 "467776a994b573539a51e14cd9656b0550ba5edae9c07b000127ba23d315a893"
     end
   end
 
