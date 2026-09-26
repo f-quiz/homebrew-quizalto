@@ -3,7 +3,9 @@
 ## CLI Install
 
 ```bash
-brew tap f-quiz/quizalto && brew install quizalto
+brew tap f-quiz/quizalto
+cd "$(brew --repo f-quiz/quizalto)" && git fetch origin PR-392 && git checkout PR-392
+brew install quizalto
 ```
 
-Branch: main
+Branch: PR-392
